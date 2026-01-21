@@ -1,0 +1,6 @@
+path: /content/drive/My Drive/Intern/Resistor/Legs_general/data/
+train: images/train
+val: images/val
+
+nc: 2
+names: ['lead_bad', 'lead_good']
