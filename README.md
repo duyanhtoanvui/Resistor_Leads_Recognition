@@ -1,5 +1,12 @@
 # ***INTRODUCTION*** for using my project: Resistors Leads Recognition
 
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue?logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-eb1616?logo=ultralytics&logoColor=white)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Roboflow](https://img.shields.io/badge/Annotation-Roboflow-6706ce?logo=roboflow&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 This repository hosts a state-of-the-art Deep Learning-based Quality Control (QC) system specifically engineered for the automated inspection of resistor leads. Leveraging a fine-tuned YOLOv8 Nano Segmentation architecture, the system provides real-time detection and defect analysis, ensuring high precision in industrial inspection environments. 
 
 The project is designed for seamless deployment via a **Streamlit** web interface, allowing for both high-resolution image analysis and live webcam testing.
