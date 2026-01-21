@@ -4,9 +4,9 @@ This repository hosts a state-of-the-art Deep Learning-based Quality Control (QC
 
 The project is designed for seamless deployment via a Streamlit web interface, allowing for both high-resolution image analysis and live webcam testing.
 
-Annotation Tool: Roboflow at https://roboflow.com/
+Annotation Tool: **Roboflow** at https://roboflow.com/
 
-Model Framework: Ultralytics YOLOv8n-seg
+Model Framework: **Ultralytics YOLOv8n-seg**
 
 I still update the model to enhance its efficiency!
 
@@ -28,7 +28,7 @@ Below is a breakdown of the repository's components as seen in the project root:
 | **`Graph_best_nano_seed_1301/`** | Contains performance metrics, including Loss curves, mAP (Mean Average Precision) graphs, and Confusion Matrices for model validation. |
 | **`app.py`** | The main application entry point. A Streamlit-based UI for model interaction and visualization. |
 | **`best_nano_seed_1301.pt`** | The optimized YOLOv8 Nano model weights, fine-tuned for high sensitivity to small electronic components. |
-| **`resistor_legs.yaml`** | The dataset configuration file defining paths and class names (Good/Bad leads) used during training. |
+| **`resistor_legs.yaml`** | The dataset configuration file defining paths and class names (`Lead_good`, `Lead_bad`) used during training. |
 | **`requirements.txt`** | A comprehensive list of Python dependencies (e.g., `ultralytics`, `streamlit`, `opencv-python`). |
 | **`.gitignore` / **`LICENSE`** | Standard repository configuration and MIT License documentation. |
 | **`README.md`** | This documentation file. |
