@@ -2,7 +2,7 @@
 
 This repository hosts a state-of-the-art Deep Learning-based Quality Control (QC) system specifically engineered for the automated inspection of resistor leads. Leveraging a fine-tuned YOLOv8 Nano Segmentation architecture, the system provides real-time detection and defect analysis, ensuring high precision in industrial inspection environments. 
 
-The project is designed for seamless deployment via a Streamlit web interface, allowing for both high-resolution image analysis and live webcam testing.
+The project is designed for seamless deployment via a **Streamlit** web interface, allowing for both high-resolution image analysis and live webcam testing.
 
 Annotation Tool: **Roboflow** at https://roboflow.com/
 
@@ -15,8 +15,8 @@ I still update the model to enhance its efficiency!
 **The system operates through an end-to-end Computer Vision pipeline:**
 * Inference Engine: Utilizes the **`best_nano_seed_1301.pt`** weights to perform object detection on resistor leads.
 * Logic-Based Assessment: Analyzes detection results to classify the product status:
-    * **Lead_good**: Leads that meet quality standards.
-    * **Lead_bad**: Any lead is identified as "bad" (e.g., bent, broken, or missing).
+    * **`Lead_good`**: Leads that meet quality standards.
+    * **`Lead_bad`**: Any lead is identified as "bad" (e.g., bent, broken, or missing).
 * Defect Visualization: Automatically crops and zooms into detected anomalies for manual verification by QC personnel.
 
 ## II. Project Structure
