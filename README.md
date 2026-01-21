@@ -30,7 +30,7 @@ Below is a breakdown of the repository's components as seen in the project root:
 | **`best_nano_seed_1301.pt`** | The optimized YOLOv8 Nano model weights, fine-tuned for high sensitivity to small electronic components. |
 | **`resistor_legs.yaml`** | The dataset configuration file defining paths and class names (`Lead_good`, `Lead_bad`) used during training. |
 | **`requirements.txt`** | A comprehensive list of Python dependencies (e.g., `ultralytics`, `streamlit`, `opencv-python`). |
-| **`.gitignore` / **`LICENSE`** | Standard repository configuration and MIT License documentation. |
+| **`.gitignore`** / **`LICENSE`** | Standard repository configuration and MIT License documentation. |
 | **`README.md`** | This documentation file. |
 
 ## III. Prerequisites
@@ -62,7 +62,7 @@ source venv/bin/activate`
 
 ## V. Usage & App Operations
 
-To launch the Smart QC interface, execute:
+To launch the QC interface, execute:
 `streamlit run app.py`
 
 **Operating the Dashboard**:
